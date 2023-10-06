@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Add new post</title>
     <link rel="icon" href="res/images/favicon.ico" />
     <link rel="stylesheet" href="res/css/style.css" />
   </head>
@@ -23,5 +23,21 @@
         </div>
       </div>
     </header>
+
+    <form action="/index.html" class="form">
+      <div class="form-body column">
+        <div class="grid">
+          <label for="post">Post body</label>
+          <textarea id="post" placeholder="text"></textarea>
+          <label for="upload">Select file</label>
+          <div>
+            <label for="upload" id="select-button">Choose file</label> 
+          </div>
+          <input type="file" id="upload"> <!--Hidden element, the previous element is styled as a button-->
+        </div>
+        
+        <button class="form-submit" type="submit" >Create post</button>
+      </div>
+    </form>
   </body>
 </html>

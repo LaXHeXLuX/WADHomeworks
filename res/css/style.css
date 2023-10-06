@@ -197,3 +197,37 @@ footer {
   margin: 8px;
   min-height: 52px;
 }
+
+
+#upload {
+  display: none;
+}
+
+#select-button {
+  background-color: #eeeeee;
+  color: #000000;
+  padding: 3px 5px;
+  border-radius: 3px;
+  border: 1px solid #7a7a7a;
+  cursor: pointer;
+}
+
+#select-button:hover {
+  background-color: #cbccd1;
+}
+
+.grid {
+  margin: 20px auto;
+  display: inline-grid;
+  grid-template-columns: 1fr 2fr;
+  /*     
+    grid-template-columns - the grid-template-columns CSS property defines the numbers and  
+    sizing functions of the grid columns.
+  */
+  gap: 10px 10px;
+}
+
+.grid > label {
+  display: flex;
+  align-items: center;
+}

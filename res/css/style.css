@@ -113,3 +113,81 @@ a {
 .form-submit {
   height: 24px;
 }
+
+.main {
+  margin: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.empty {
+  width: 30%;
+  height: 100%;
+  background-color: #e9e9e9;
+  background-color: gray;
+  border-radius: 10px;
+  margin: 8px;
+}
+
+.posts {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.post {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 90%;
+  min-width: min-content;
+  max-width: max-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #e9e9e9;
+  height:max-content;
+}
+
+.postHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 20px;
+}
+
+.postIcon {
+  width: 20px;
+  height: auto;
+}
+
+.postBody {
+  display: flex;
+  flex: 1;
+  min-width: min-content;
+  width: 100%;
+  height: max-content;
+}
+
+.postFooter {
+  display: flex;
+  justify-content: left;
+  min-width: min-content;
+  width: 100%;
+  height: 20px;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  min-width: min-content;
+  height: 52px;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  border-radius: 10px;
+  margin: 8px;
+  min-height: 52px;
+}

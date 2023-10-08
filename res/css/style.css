@@ -111,7 +111,15 @@ a {
 }
 
 .form-submit {
-  height: 24px;
+  padding: 0 12px;
+  height: 28px;
+  background-color: #1773fc;
+  color: #ffff;
+  border: none;
+}
+
+.form-submit:hover {
+  background-color: #145bc5;
 }
 
 .main {

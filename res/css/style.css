@@ -58,8 +58,8 @@ a {
   display: flex;
 }
 
-.nav-start > :not(:last-child) {
-  border-right: solid 2px rgb(26, 26, 26);
+.nav-item:first-child ~ * {
+  border-left: solid 2px rgb(26, 26, 26);
 }
 
 .nav-item {
@@ -199,7 +199,7 @@ footer {
 }
 
 
-#upload {
+div + #upload {
   display: none;
 }
 

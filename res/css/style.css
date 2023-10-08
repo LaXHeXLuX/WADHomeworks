@@ -178,6 +178,7 @@ a {
   margin: 5px auto 5px;
   display: flex;
   flex: 1;
+  flex-direction: column;
   min-width: min-content;
   width: 100%;
   max-width: 100%;

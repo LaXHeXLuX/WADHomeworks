@@ -29,8 +29,6 @@ a {
   height: 52px;
   align-items: center;
   background-color: gray;
-  border-radius: 10px;
-  margin: 8px;
 }
 
 .nav {
@@ -127,6 +125,7 @@ a {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex: 1;
 }
 
 .empty {
@@ -201,8 +200,6 @@ footer {
   align-items: center;
   justify-content: center;
   background-color: gray;
-  border-radius: 10px;
-  margin: 8px;
   min-height: 52px;
 }
 

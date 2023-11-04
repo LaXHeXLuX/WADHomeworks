@@ -1,0 +1,65 @@
+{
+    "posts" : 
+    [
+        {
+            "author": "Laas Hendrik",
+            "date": "04.11.2023",
+            "postBody": "Hey, has anyone done the homework in WAD that's due in 2 days? We have to make the website more dynamic or something",
+            "likeCount": "2"
+        },
+        {
+            "author": "Kustav",
+            "date": "02.11.2023",
+            "postBody": "Just did a backflip for the first time :O \nAmazing feeling!",
+            "likeCount": "21"
+        },
+        {
+            "author": "AnAppleAWeek",
+            "date": "01.11.2023",
+            "postBody": "apple.png",
+            "likeCount": "0"
+        },
+        {
+            "author": "Kennar",
+            "date": "03.11.2023",
+            "postBody": "My top 5 favourite places in Delta:\n1. 1037\n2. 3064\n3. The entrance\n4. The exit\n5. Second restroom on the right, on the other side on the wardrobe",
+            "likeCount": "18"
+        },
+        {
+            "author": "MysteriousGuy",
+            "date": "05.11.2023",
+            "postBody": "How did I get here? Why am I stuck here, in this post? I don't know, do you? Mystery...",
+            "likeCount": "5"
+        },
+        {
+            "author": "Arnold Schwarzenegger fans",
+            "date": "29.10.2023",
+            "postBody": "strongman.png",
+            "likeCount": "21428"
+        },
+        {
+            "author": "Laas Hendrik",
+            "date": "31.10.2023",
+            "postBody": "halloween.png",
+            "likeCount": "30"
+        },
+        {
+            "author": "IWritePoems",
+            "date": "4.11.2023",
+            "postBody": "Roses are red\nViolets are blue\nJSON is cool\nAnd so are you",
+            "likeCount": "50"
+        },
+        {
+            "author": "John Smith",
+            "date": "3.11.2023",
+            "postBody": "How do I like posts? I can't see the usual 'like' icon anywhere, and the weird fleshy had icon can't be that, right?",
+            "likeCount": "11"
+        },
+        {
+            "author": "mememaster",
+            "date": "06.11.2023",
+            "postBody": "meme.png",
+            "likeCount": "749"
+        }
+    ]
+}

@@ -121,10 +121,6 @@ a {
   background-color: var(--background-2);
 }
 
-.row {
-  display: flex;
-}
-
 .column {
   display: flex;
   flex-direction: column;

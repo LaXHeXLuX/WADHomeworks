@@ -19,7 +19,7 @@
             "author": "AnAppleAWeek",
             "date": "01.11.2023",
             "postBody": "Photo by Louis Hansel on Unsplash",
-            "postImage": {"url": "/res/images/posts/apple.png", "name": "apple"},
+            "postImage": {"url": "https://i.ibb.co/TP5j4LV/apple.jpg", "name": "apple"},
             "likeCount": "0"
         },
         {
@@ -40,14 +40,14 @@
             "author": "Arnold Schwarzenegger fans",
             "date": "29.10.2023",
             "postBody": "Photo from Wikipedia",
-            "postImage": {"url": "/res/images/posts/strongman.png", "name": "strongman"},
+            "postImage": {"url": "https://i.ibb.co/yFB4Dgv/strongman.jpg", "name": "strongman"},
             "likeCount": "21428"
         },
         {
             "author": "Laas Hendrik",
             "date": "31.10.2023",
             "postBody": "Felt scary, might delete later idk. Happy Halloween!",
-            "postImage": {"url": "/res/images/posts/halloween.png", "name": "halloween"},
+            "postImage": {"url": "https://i.ibb.co/28MdBPg/halloween.jpg", "name": "halloween"},
             "likeCount": "30"
         },
         {
@@ -68,7 +68,7 @@
             "author": "mememaster",
             "date": "06.11.2023",
             "postBody": "Like for more ;)",
-            "postImage": {"url": "/res/images/posts/meme.png", "name": "meme"},
+            "postImage": {"url": "https://i.ibb.co/5hWBD9C/meme.png", "name": "meme"},
             "likeCount": "749"
         }
     ]

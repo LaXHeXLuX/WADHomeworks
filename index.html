@@ -20,7 +20,19 @@
           </div>
         </div>
         <div class="nav-end">
-          <img class="me" src="res/images/me.png" alt="My picture" />
+          <div id="user-menu">
+            <img
+              class="me"
+              src="res/images/me.png"
+              alt="My picture"
+              onclick="toggleMenu()"
+            />
+            <div id="user-menu" class="dropdown-content">
+              <span>John Doe</span>
+              <span>john.doe@ut.ee</span>
+              <span>Logout</span>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -96,4 +108,6 @@
       <span>Footer</span>
     </footer>
   </body>
+
+  <script src="src/js/dropdown.js"></script>
 </html>

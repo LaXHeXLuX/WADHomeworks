@@ -19,22 +19,42 @@
           </div>
         </div>
         <div class="nav-end">
-          <img class="me" src="res/images/me.png" alt="My picture" />
+          <div id="user-menu">
+            <img
+              class="me"
+              src="res/images/me.png"
+              alt="My picture"
+              onclick="toggleMenu()"
+            />
+            <div class="dropdown-content">
+              <span>John Doe</span>
+              <span>john.doe@ut.ee</span>
+              <span>Logout</span>
+            </div>
+          </div>
         </div>
       </div>
     </header>
-
-    <form action="index.html" class="form">
-      <div class="form-body column">
-        <h3>Welcome to PostIt</h3>
-        <a href="#">Create an account</a>
-        <span>or</span>
-        <span>Please log in</span>
-        <input class="form-input" required placeholder="Email" type="email" />
-        <input class="form-input" required placeholder="Password" type="password" />
-        <button class="form-submit" type="submit">Log in</button>
-        <a href="#">Forgot password</a>
-      </div>
-    </form>
+    <div class="content">
+      <form action="index.html" class="form">
+        <div class="form-body column">
+          <h3>Welcome to PostIt</h3>
+          <a href="#">Create an account</a>
+          <span>or</span>
+          <span>Please log in</span>
+          <input class="form-input" required placeholder="Email" type="email" />
+          <input
+            class="form-input"
+            required
+            placeholder="Password"
+            type="password"
+          />
+          <button class="form-submit" type="submit">Log in</button>
+          <a href="#">Forgot password</a>
+        </div>
+      </form>
+    </div>
   </body>
+
+  <script src="src/js/dropdown.js"></script>
 </html>
